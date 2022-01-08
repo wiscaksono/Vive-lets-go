@@ -19,19 +19,52 @@
     <nav class="border-b border-gray-200">
       <div class="flex max-w-6xl mx-auto justify-between items-center my-5">
         <img src="/image/logo.svg" alt="" />
-        <div
+        <ul class="flex justify-center items-center gap-8">
+          <li
+            class="text-soft-black hover:text-solid-black hover:font-semibold hover:border-b hover:border-naraja"
+          >
+            <a href="#">Test</a>
+          </li>
+          <li
+            class="text-soft-black hover:text-solid-black hover:font-semibold hover:border-b hover:border-naraja"
+          >
+            <a href="#">Categorías</a>
+          </li>
+          <li
+            class="text-soft-black hover:text-solid-black hover:font-semibold hover:border-b hover:border-naraja"
+          >
+            <a href="#">Ideas de Regalo</a>
+          </li>
+          <li
+            class="text-soft-black hover:text-solid-black hover:font-semibold hover:border-b hover:border-naraja"
+          >
+            <a href="#">Obsequios</a>
+          </li>
+          <li
+            class="text-soft-black hover:text-solid-black hover:font-semibold hover:border-b hover:border-naraja"
+          >
+            <a href="#">Vlg Feed</a>
+          </li>
+          <li
+            class="text-soft-black hover:text-solid-black hover:font-semibold hover:border-b hover:border-naraja"
+          >
+            <a href="#">Nosotros</a>
+          </li>
+        </ul>
+        <!-- <div
           class="flex text-soft-black hover:text-solid-black hover:font-semibold justify-center gap-8 items-center font-medium text-sm"
         >
           <a>Incio</a>
-          <a>Categorías</a>
-          <a>Ideas de Regalo</a>
-          <a>Obsequios</a>
-          <a>Vlg Feed</a>
-          <a>Nosotros</a>
-        </div>
+          <a></a>
+          <a></a>
+        </div> -->
         <div class="flex justify-center items-center gap-5">
-          <img src="/image/user.svg" alt="" />
-          <img src="/image/shop.svg" alt="" />
+          <a href="#">
+            <img src="/image/user.svg" alt="" />
+          </a>
+          <a href="#">
+            <img src="/image/shop.svg" alt="" />
+          </a>
         </div>
       </div>
     </nav>
@@ -201,18 +234,147 @@
             <img src="/image/img3.png" class="w-full h-full" alt="" />
             <img src="/image/img4.png" class="w-full h-full" alt="" />
           </div>
-          <div
-            class="absolute -right-[76px] fa fa-3x fa-caret-right text-soft-black rounded-full"
-          ></div>
-          <div
-            class="absolute -left-[76px] fa fa-3x fa-caret-left text-soft-black rounded-full"
-          ></div>
+          <a href="">
+            <div
+              class="absolute -right-[76px] fa fa-3x fa-caret-right text-soft-black opacity-50 rounded-full"
+            ></div>
+          </a>
+          <a href="#">
+            <div
+              class="absolute -left-[76px] fa fa-3x fa-caret-left text-soft-black opacity-50 rounded-full"
+            ></div>
+          </a>
         </div>
       </div>
     </section>
 
-    <footer>
-      <div class="bg-soft-black py-28">INI FOOTER</div>
+    <footer class="bg-soft-black">
+      <div class="max-w-5xl mx-auto flex justify-between items-center pt-7">
+        <div class="w-3/12">
+          <img src="/image/footer-logo.png" alt="" />
+          <div class="text-white text-sm mt-4">
+            <div class="opacity-60">
+              <p>¡Regálate experiencias!</p>
+              <p class="mt-4">
+                Somos una comunidad de experiencias únicas que brinda a las
+                personas momentos inolvidables.
+              </p>
+            </div>
+            <div>
+              <ul class="flex gap-4 items-center mt-6">
+                <li>
+                  <a href="#">
+                    <img src="/image/Facebook.svg" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="/image/Youtube.svg" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="/image/Instagram.svg" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="/image/Twitter.svg" alt="" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <p class="font-semibold text-white">Links útiles</p>
+          <ul class="text-white text-sm opacity-60 flex flex-col gap-2 mt-4">
+            <li>
+              <a href="#">Mi cuenta</a>
+            </li>
+            <li>
+              <a href="#">Mis pedidos</a>
+            </li>
+            <li>
+              <a href="#">Términos y condiciones</a>
+            </li>
+            <li>
+              <a href="#">Políticas de privacidad</a>
+            </li>
+            <button
+              class="bg-naraja opacity-100 hover:bg-blue-700 text-white font-bold py-2 px-4 mt-6 rounded-full"
+            >
+              <a href="#">Centro de provedores</a>
+            </button>
+          </ul>
+        </div>
+
+        <div>
+          <p class="font-semibold text-white">Categorías</p>
+          <ul class="text-white text-sm opacity-60 flex flex-col gap-2 mt-4">
+            <li>
+              <a href="#">Aventura</a>
+            </li>
+            <li>
+              <a href="#">En casa</a>
+            </li>
+            <li>
+              <a href="#">Entretenimiento</a>
+            </li>
+            <li>
+              <a href="#">Escapadas</a>
+            </li>
+            <li>
+              <a href="#">Gastronomías</a>
+            </li>
+            <li>
+              <a href="#">Ocasiones especiales</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="font-semibold text-white">Contáctenos</p>
+          <ul class="flex flex-col gap-2 mt-4">
+            <li class="flex gap-3">
+              <img src="/image/Mail.svg" alt="" />
+              <a class="text-white opacity-60" href="#"
+                >experiencias@viveletsgo.com</a
+              >
+            </li>
+            <li class="flex gap-3">
+              <img src="/image/Whatsapp.svg" alt="" />
+              <a href="#" class="text-white opacity-60">321836025</a>
+            </li>
+          </ul>
+          <p class="font-semibold text-white mt-10">Contáctenos</p>
+          <form class="w-full max-w-sm mt-4">
+            <div class="flex items-center bg-white rounded-lg py-2">
+              <input
+                class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+                type="text"
+                placeholder="Escribe tu email "
+              />
+              <button
+                class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white mr-1 rounded"
+                type="button"
+              >
+                <img src="/image/send.svg" alt="" />
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-400 mt-7">
+        <div class="max-w-5xl mx-auto flex justify-between py-4 items-center">
+          <p class="text-sm text-white opacity-60">
+            Todos los derechos reservados. Copyright © 2020 - UNIK GO. S.A.S.
+          </p>
+          <img src="/image/payment.svg" alt="" />
+        </div>
+      </div>
     </footer>
   </body>
 </html>
