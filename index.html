@@ -13,20 +13,21 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="">
     <nav class="border-b border-gray-200">
       <div class="flex max-w-6xl mx-auto justify-between items-center my-5">
         <img src="/image/logo.svg" alt="" />
         <div
-          class="flex text-soft-black justify-center gap-8 items-center font-medium text-sm"
+          class="flex text-soft-black hover:text-solid-black hover:font-semibold justify-center gap-8 items-center font-medium text-sm"
         >
-          <p>Incio</p>
-          <p>Categorías</p>
-          <p>Ideas de Regalo</p>
-          <p>Obsequios</p>
-          <p>Vlg Feed</p>
-          <p>Nosotros</p>
+          <a>Incio</a>
+          <a>Categorías</a>
+          <a>Ideas de Regalo</a>
+          <a>Obsequios</a>
+          <a>Vlg Feed</a>
+          <a>Nosotros</a>
         </div>
         <div class="flex justify-center items-center gap-5">
           <img src="/image/user.svg" alt="" />
@@ -53,7 +54,9 @@
     </header>
 
     <section class="bg-soft-white">
-      <div class="max-w-5xl mx-auto">
+      <div
+        class="max-w-5xl mx-auto bg-[url('/image/jempol.svg')] bg-no-repeat bg-right-bottom"
+      >
         <div class="flex justify-center items-center py-10">
           <div class="w-1/2">
             <div class="grid grid-cols-2 gap-5">
@@ -173,13 +176,15 @@
           comunidad de talentos que buscan siempre diferenciarse. Mejor míralo
           con tus propios ojos.
         </p>
-        <img class="w-full h-full" src="/image/traveler.png" alt="" />
-        <!-- <button
-          class="w-24 h-24 rounded-full bg-blue-500 focus:outline-none relative inset-0"
-          onclick="play();"
-        >
-          <i class="fa fa-play fa-2x text-white" id="play-btn"></i>
-        </button> -->
+        <div class="relative flex justify-center overflow-hidden items-center">
+          <img class="w-full h-full" src="/image/traveler.png" alt="" />
+          <button
+            class="w-24 h-24 rounded-full bg-naraja focus:outline-none absolute"
+            onclick="play();"
+          >
+            <i class="fa fa-play fa-2x text-white" id="play-btn"></i>
+          </button>
+        </div>
       </div>
     </section>
 
@@ -189,11 +194,19 @@
           Momentos <br />
           <span class="text-naraja">#Let's Go</span>
         </h1>
-        <div class="flex gap-4 justify-center items-center">
-          <img src="/image/img1.png" class="w-full h-full" alt="" />
-          <img src="/image/img2.png" class="w-full h-full" alt="" />
-          <img src="/image/img3.png" class="w-full h-full" alt="" />
-          <img src="/image/img4.png" class="w-full h-full" alt="" />
+        <div class="relative flex items-center">
+          <div class="flex gap-4 justify-between w-full items-center">
+            <img src="/image/img1.png" class="w-full h-full" alt="" />
+            <img src="/image/img2.png" class="w-full h-full" alt="" />
+            <img src="/image/img3.png" class="w-full h-full" alt="" />
+            <img src="/image/img4.png" class="w-full h-full" alt="" />
+          </div>
+          <div
+            class="absolute -right-[76px] fa fa-3x fa-caret-right text-soft-black rounded-full"
+          ></div>
+          <div
+            class="absolute -left-[76px] fa fa-3x fa-caret-left text-soft-black rounded-full"
+          ></div>
         </div>
       </div>
     </section>

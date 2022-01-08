@@ -5,6 +5,7 @@ module.exports = {
       colors: {
         naraja: "#F55C30",
         azul: "#03B3C2",
+        "solid-black": "333333",
         "soft-black": "#343434",
         "soft-white": "#E5E5E5",
       },
